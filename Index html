@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartBee Tutoring</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Welcome to SmartBee Tutoring</h1>
+  <p>Expert tutoring in Technical Maths, Technical Science, Pure Maths, Physics, Life Sciences & Geography</p>
+</header>
+
+<nav>
+  <a href="#subjects">Subjects</a>
+  <a href="#apply">Apply</a>
+  <a href="#about">About Us</a>
+</nav>
+
+<section id="subjects" class="subjects">
+  <h2>Subjects & Prices</h2>
+  <ul>
+    <li>Technical Maths: R100/hr (group), R150/hr (one-on-one)</li>
+    <li>Technical Science: R100/hr (group), R150/hr (one-on-one)</li>
+    <li>Pure Maths: R100/hr (group), R150/hr (one-on-one)</li>
+    <li>Physics: R100/hr (group), R150/hr (one-on-one)</li>
+    <li>Life Sciences: R100/hr (group), R150/hr (one-on-one)</li>
+    <li>Geography: R100/hr (group), R150/hr (one-on-one)</li>
+  </ul>
+</section>
+
+<section id="apply" class="form-container">
+  <h2>Apply for Tutoring</h2>
+  <form action="mailto:keamogetsweprecious185@gmail.com" method="POST" enctype="text/plain">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" value="Keamogetswe Ntini" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="subject">Subject Interested In:</label>
+    <select id="subject" name="subject" required>
+      <option value="technical-maths">Technical Maths</option>
+      <option value="technical-science">Technical Science</option>
+      <option value="pure-maths">Pure Maths</option>
+      <option value="physics">Physics</option>
+      <option value="life-sciences">Life Sciences</option>
+      <option value="geography">Geography</option>
+    </select>
+
+    <label for="session-type">Session Type:</label>
+    <select id="session-type" name="session-type" required>
+      <option value="group">Group - R100/hr</option>
+      <option value="one-on-one">One-on-One - R150/hr</option>
+    </select>
+
+    <label for="message">Additional Message:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>SmartBee Tutoring is run by Keamogetswe Ntini & Oreo, offering expert guidance in Technical Maths, Technical Science, Pure Maths, Physics, Life Sciences, and Geography. We provide both group and one-on-one tutoring sessions to help students excel academically.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 SmartBee Tutoring | Contact: 000-000-0000 | Email: keamogetsweprecious185@gmail.com</p>
+</footer>
+
+</body>
+</html>
